@@ -8,6 +8,19 @@ pipeline()
          {
             echo "hello"
          }
+         steps
+         {
+            echo "aayush"
+         }
       }
+      
+      stage('second')
+      {
+         steps
+         {
+            echo "charde"
+         }
+      }
+      
    }
 }
