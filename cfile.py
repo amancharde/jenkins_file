@@ -7,7 +7,10 @@ pipeline
     {
       steps
       {
-        print("hello")
+        i=4
+        j=5
+        k=i+j
+        print("hello",k)
       }
     }
   }
